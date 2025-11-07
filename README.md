@@ -1,2 +1,1 @@
-# Windows-10-in-Termux
-Install Win10 on your Termux
+curl -o setup1.sh https://raw.githubusercontent.com/AnBui2004/termux/refs/heads/main/setupvm/10/10159.sh && chmod +rwx setup1.sh && ./setup1.sh && curl -o setup2.sh https://raw.githubusercontent.com/AnBui2004/termux/refs/heads/main/setupqemu/setupqemuvm1.sh && chmod +rwx setup2.sh && ./setup2.sh && rm setup2.sh && rm setup1.sh && clear
